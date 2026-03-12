@@ -1,0 +1,36 @@
+{
+  "name": "multi-git-clone",
+  "version": "1.0.1",
+  "description": "Clone the same repository to multiple folders with automatic numbering and parallel execution",
+  "type": "module",
+  "bin": {
+    "mgc": "./dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "git",
+    "clone",
+    "multi",
+    "parallel",
+    "workspace",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yosh1/multi-git-clone.git"
+  },
+  "homepage": "https://github.com/yosh1/multi-git-clone#readme",
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.8.0"
+  }
+}
